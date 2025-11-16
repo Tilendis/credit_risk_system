@@ -1,0 +1,4 @@
+column,dtype,n_unique,n_missing,missing_rate
+feature1,float64,100,0,0.0
+feature2,int32,5,0,0.0
+target,int32,2,0,0.0
