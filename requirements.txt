@@ -1,0 +1,24 @@
+# 核心数据处理
+pandas>=1.5.0
+numpy>=1.23.0
+
+# 可视化（核心）
+matplotlib>=3.5.0
+seaborn>=0.12.0
+plotly>=5.0.0  # 新增交互式图表库
+
+# 机器学习
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+joblib>=1.3.0
+
+# Web界面
+gradio>=3.50.0
+
+# 可解释AI（用于高级功能）
+shap>=0.42.0
+lime>=0.2.0
+
+# 深度学习（用于TabNet）
+torch>=2.0.0
+pytorch-tabnet>=4.0
