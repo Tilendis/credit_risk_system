@@ -1,5 +1,4 @@
 # credit_risk_system
-<<<<<<< HEAD
 本系统是一款基于“UCI德国信用数据集”构建的智能化信用风险评估平台，核心定位为“合规、透明、高效的风控决策支持工具”。主要工作由大模型（包括但不限于GPT-5、豆包）完成，作为人工智能导论课程期末作业提交。
 其设计理念源于金融行业对算法可解释性的监管要求与中小机构低成本风控的实际需求，通过融合传统机器学习与深度表格学习技术，实现从数据获取到风险评估的全流程自动化。
 This system is an intelligent credit risk assessment platform built based on the "UCI German Credit Dataset", with its core positioning as a "compliant, transparent, and efficient risk control decision support tool". 
