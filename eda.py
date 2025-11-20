@@ -144,7 +144,7 @@ class EDAAnalyzer:
         if len(self.numeric_cols) >= 2:
             self._plot_correlation_heatmap()
         
-        # 4. 类别型特征分布图（可选，可注释掉以加快速度）
+        # 4. 类别型特征分布图
         if len(self.categorical_cols) > 0:
             self._plot_categorical_counts()
     
@@ -243,7 +243,7 @@ if __name__ == '__main__':
     print("EDA分析模块自测")
     print("="*60)
     
-    # 模拟数据（实际使用时请替换为真实数据）
+    # 模拟数据
     import numpy as np
     
     # 创建示例DataFrame
