@@ -1,4 +1,4 @@
-# app.py（完全人类可读版 - 面向一线操作人员）
+# app.py
 import gradio as gr
 import joblib
 import pandas as pd
@@ -12,7 +12,7 @@ if not os.path.exists(MODEL_PATH):
 
 model = joblib.load(MODEL_PATH)
 
-# 完全人类可读的特征配置（选项直接显示业务含义，隐藏编码）
+# 特征配置（选项直接显示业务含义，隐藏编码）
 FEATURE_CONFIG = {
     "Attribute1": {
         "label": "支票账户状态",
