@@ -47,7 +47,7 @@ class DataManager:
     def _extract_data(self, ds):
         """
         核心私有方法：从ucimlrepo返回对象中提取features和targets
-        （移植自原test.py的全部逻辑）
+        
         """
         features = None
         targets = None
